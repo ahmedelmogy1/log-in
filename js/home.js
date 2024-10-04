@@ -6,7 +6,7 @@ let emails=JSON.parse(localStorage.getItem("emails"))
 //^ Event
 logOut.addEventListener("click",()=>{
    nameHome.innerHTML=emails[emails.length-1].userName
-    location.href="../index.html";
+    location.href="/log-in/index.html";
 })
 
 
